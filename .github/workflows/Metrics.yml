@@ -47,10 +47,4 @@ jobs:
           filename: metrics.projects.svg
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: lowlighter
-          base: ""
-          plugin_projects: yes
-          plugin_projects_repositories: lowlighter/metrics/projects/1
-          plugin_projects_limit: 0
-          config_timezone: Europe/Berlin
-          
+  
