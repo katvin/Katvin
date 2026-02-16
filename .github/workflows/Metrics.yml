@@ -30,8 +30,9 @@ jobs:
           # plugin_16personalities_scores: no
 
           #CRYPTO
+          plugin_crypto: yes
           plugin_crypto_id: bitcoin
           plugin_crypto_vs_currency: usd
           plugin_crypto_days: 1
           plugin_crypto_precision: 2
-                
+                        
